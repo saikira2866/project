@@ -1,0 +1,63 @@
+<section class="material-half-bg">
+  <div class="cover"></div>
+</section>
+
+<section class="login-content">
+          <!--<div class="logo">
+            <h1>Raacom</h1>
+          </div>-->
+
+          <div class="row formsContainer">
+            <div class="registrationContainer">
+                      <div class="col-md-6">                
+                          <div class="col-md-4 py-5 bg-primary text-white text-center " [class.regisLeftContainer]="regisLeft">
+                              <div class="card-body">
+                                  <img src="../../assets/images/wfh.png" style="width:30%">
+                                  <h2 class="py-3">Work From Home</h2>
+                                  <p>Tation argumentum et usu, dicit viderer evertitur te has. Eu dictas concludaturque usu, facete detracto patrioque an per, lucilius pertinacia eu vel.
+                                </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="login-box" [class.flipped]="formFlip">
+                              <form class="login-form" [ngClass]="{'hide': !loginHide }">                        
+                                <h3 class="login-head"><i class="fa fa-lg fa-fw fa-user"></i>SIGN IN</h3>
+                                <div class="form-group">
+                                  <label class="control-label">USERNAME</label>
+                                  <input class="form-control" type="text" placeholder="Email" autofocus="" [(ngModel)]="username" name="username">
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label">PASSWORD</label>
+                                  <input class="form-control" type="password" placeholder="Password" [(ngModel)]="password" name="password">
+                                </div>
+                                <div class="form-group">
+                                  <div class="utility">
+                                    <div class="animated-checkbox">
+                                      <label>
+                                       <span class="label-text" (click)="registerMthd()">Register Here</span>
+                                      </label>
+                                    </div>
+                                    <p class="semibold-text mb-2"><a data-toggle="flip" (click)="forgetMtd()">Forgot Password ?</a></p>
+                                  </div>
+                                </div>
+                                <div class="form-group btn-container">
+                                  <button class="btn btn-primary btn-block"  routerLink="dashboard" >
+                                    <i class="fa fa-sign-in fa-lg fa-fw"></i>SIGN IN
+                                  </button>
+                                </div>
+                              </form>
+
+                              
+                              <form class="forget-form">
+                                <app-forgetpassword></app-forgetpassword>
+                              </form>
+
+                              <form class="regis-form" [class.regisShow]="regishide">
+                                  <app-registration-form></app-registration-form>
+                                </form> 
+                          </div>   
+                      </div>
+                    </div>
+          </div>
+  </section>

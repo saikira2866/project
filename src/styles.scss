@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+    
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+h3, .h3 {
+        font-size: 1.53125rem;
+ }
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+} 
+.semibold-text {
+    font-weight: 600 !important;
+    margin-top: 0.6em;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.animated-checkbox input[type="checkbox"] {
+    display: none;
+}
+input[type="radio"], input[type="checkbox"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+button, input {
+    overflow: visible;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.animated-checkbox input[type="checkbox"] + .label-text {
+    cursor: pointer !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.animated-checkbox input[type="checkbox"] + .label-text:before {
+    content: "";
+    font-family: "FontAwesome";    
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    width: 1em;
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: -2px;
+}
+.animated-checkbox input[type="checkbox"] {
+    display: none;
+}
+input[type="radio"], input[type="checkbox"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+button, input {
+    overflow: visible;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.animated-checkbox input[type="checkbox"] + .label-text {
+    cursor: pointer !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.animated-checkbox input[type="checkbox"] + .label-text:before {
+    content: "";
+    font-family: "FontAwesome";    
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    width: 1em;
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: -2px;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.login-content .login-box .btn-container {
+    margin-bottom: 0;
+    margin-top: -1em;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn {
+    cursor: pointer;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #121a58;
+    border-color: #121a58;
+}
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    -webkit-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.2s cubic-bezier(0.35, 0, 0.25, 1);
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.2s cubic-bezier(0.35, 0, 0.25, 1);
+    -o-transition: box-shadow 0.3s cubic-bezier(0.35, 0, 0.25, 1),
+     transform 0.2s cubic-bezier(0.35, 0, 0.25, 1),
+      background-color 0.3s ease-in-out,
+       border-color 0.3s ease-in-out;
+    transition: box-shadow 0.3s cubic-bezier(0.35, 0, 0.25, 1),
+     transform 0.2s cubic-bezier(0.35, 0, 0.25, 1), 
+     background-color 0.3s ease-in-out,
+      border-color 0.3s ease-in-out;
+    transition: box-shadow 0.3s cubic-bezier(0.35, 0, 0.25, 1),
+     transform 0.2s cubic-bezier(0.35, 0, 0.25, 1),
+      background-color 0.3s ease-in-out,
+       border-color 0.3s ease-in-out, 
+       -webkit-box-shadow 0.3s cubic-bezier(0.35, 0, 0.25, 1),
+        -webkit-transform 0.2s cubic-bezier(0.35, 0, 0.25, 1);
+}
+body {
+    margin: 0;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #FFF;
+  }
+label, .semibold-text a{ color:#121a58 !important;} 
+.material-half-bg {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.material-half-bg .cover {
+    background-color: #121a58;
+    height: 50vh;
+}
+.login-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-content .logo {
+    margin-bottom: 40px;
+    font-family: "Niconne";
+    color: #fff;
+}
+.login-content .logo h1 {
+    font-size: 52px;
+    font-weight: 400;
+}
+.login-content .login-box {
+    position: relative;
+    min-width: 350px;
+    min-height: 390px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.login-content .login-box .login-form, .login-content .login-box .forget-form {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 40px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.login-content .login-box .login-head {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.login-content .login-box label {
+    color: #666;
+    font-weight: 700;
+}
+.form-control {
+    display: block;
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.login-content .login-box .utility {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.login-content .login-box .forget-form, form.regis-form {
+    opacity: 0;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.mt-3, .my-3 {
+    margin-top: 1rem !important;
+}
+.semibold-text {
+    font-weight: 600 !important;
+}
+.login-content .login-box.flipped .forget-form {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.login-content .login-box.flipped {
+    min-height: 300px;
+}
+form.login-form.hide, form.regis-form {
+    opacity: 0;
+}
+.form-group.forgetContainer {
+    margin-bottom: 3em;
+}
+.registrationContainer .col-md-6 {  width: 50%; float: left;background-color:#121a58;} 
+
+.formsContainer {
+    width: 860px;
+    background-color: #fff;
+    height:390px;
+    /*box-shadow: 3px 2px 5px #fff !important;*/  
+}
+.pb-5, .py-5 {
+    padding-bottom: 3rem !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+    color:#fff !important;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
+h2.py-3 {
+    font-size: 2.2em !important;
+}
+.card-body p {
+    font-size: 1.25em !important;
+}
+form.forget-form {
+    height: 311px;
+    background-color: #fff !important;
+}
+form.regis-form{ 
+    display: none; 
+    height: 660px;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    width:80%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+form.regis-form.regisShow {
+    opacity: 1;
+    display: block;   
+    transform: rotateY(360deg);
+}
+.col-md-4.py-5.bg-primary.text-white.text-center.regisLeftContainer {
+    height: 640px;
+}
+select#job {
+    width: 100% !important;
+}
+
+
+/*dashboard css starts from here */
+  
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+                  
+              <h3 class="login-head"><i class="fa fa-lg fa-fw fa-user"></i>REGISTER FORM</h3>
+              <div class="form-group">
+                <label class="control-label">EMAIL</label>
+                <input class="form-control" type="text" placeholder="Email" autofocus="">
+              </div>
+              <div class="form-group">
+                <label class="control-label">FIRST NAME</label>
+                <input class="form-control" type="text" placeholder="First Name" autofocus="">
+              </div>
+              <div class="form-group">
+                <label class="control-label">LAST NAME</label>
+                <input class="form-control" type="text" placeholder="Last  Name" autofocus="">
+              </div>
+              <div class="form-group">
+                <label class="control-label">PASSWORD</label>
+                <input class="form-control" type="password" placeholder="Password">
+              </div>
+              <div class="form-group">
+                    <label for="sel1">JOB POSITION:</label>
+                    <select class="form-control" id="job">
+                        <option>Select One</option>
+                        <option>Software Developer</option>
+                        <option>Network Engineer</option>
+                    </select>
+              </div>
+              <div class="form-group">
+                <label class="control-label">CONFIRM PASSWORD</label>
+                <input class="form-control" type="password" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <div class="utility">
+                  <div class="animated-checkbox">
+                    <label>
+                     <span class="label-text"><a (click)="regToLogin()">Back to Login</a></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group btn-container">
+                <button class="btn btn-primary btn-block">
+                  <i class="fa fa-sign-in fa-lg fa-fw" (click)="regToLogin()"></i>Submit
+                </button>
+              </div>
